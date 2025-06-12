@@ -17,7 +17,7 @@ Scrolling
         Go To     https://www.amazon.in
         Maximize Browser Window
         
-        #Right Click
+        
         Open Context Menu    xpath://a[normalize-space()='Mobiles']
         Sleep    2s
         
