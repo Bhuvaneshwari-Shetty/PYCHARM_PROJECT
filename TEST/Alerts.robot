@@ -18,7 +18,7 @@ Alerts
 
         Click Element   xpath://button[@onclick='jsAlert()']
         Sleep    2s
-        #Information Alert
+        #Information Alerts
         Handle Alert    action=ACCEPT       timeout=3
 
 

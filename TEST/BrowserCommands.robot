@@ -11,7 +11,12 @@ ${url}      https://rahulshettyacademy.com/AutomationPractice/
 Browser Commands
 
         [Documentation]
-        Open Browser        ${url}      ${browser}
+        ${chrome options}=    Evaluate    sys.modules['selenium.webdriver'].ChromeOptions()    sys
+        Call Method    ${chrome options}    add_argument    --headless
+        Call Method    ${chrome options}    add_argument    --no-sandbox
+        Call Method    ${chrome options}    add_argument    --disable-dev-shm-usage
+        Create WebDriver    Chrome    options=${chrome options}
+        Go To    https://rahulshettyacademy.com/AutomationPractice/
         Go To    https://google.com
         Sleep    4s
         Go Back
