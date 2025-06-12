@@ -1,0 +1,109 @@
+1749536832490	geckodriver	INFO	Listening on 127.0.0.1:55663
+1749536835568	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55664" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\bhush\\AppData\\Local\\Temp\\rust_mozprofileUYFwk0"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1749536836415	Marionette	INFO	Marionette enabled
+1749536837230	Marionette	INFO	Listening on port 55672
+WebDriver BiDi listening on ws://127.0.0.1:55664
+Read port: 55672
+1749536837393	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn.ad.plus/player/adplus.js, line 431: TypeError: c(...).setup is not a function
+1749536847657	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1749536853933	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:205:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:189:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:465:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:218:33
+1749536869486	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:205:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:189:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:465:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:218:33
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://demoqa.com/alerts" [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&cx=c&gtm=45He5650v855226469za200&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104653070~104653072~104661466~104661468~104684208~104684211~104698127~104698129~104718208, line 193: Script terminated by timeout at:
+aa.push@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&cx=c&gtm=45He5650v855226469za200&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104653070~104653072~104661466~104661468~104684208~104684211~104698127~104698129~104718208:193:425
+ge@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&cx=c&gtm=45He5650v855226469za200&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104653070~104653072~104661466~104661468~104684208~104684211~104698127~104698129~104718208:223:213
+aa.invoke@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&cx=c&gtm=45He5650v855226469za200&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104653070~104653072~104661466~104661468~104684208~104684211~104698127~104698129~104718208:195:367
+Ma@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&cx=c&gtm=45He5650v855226469za200&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104653070~104653072~104661466~104661468~104684208~104684211~104698127~104698129~104718208:161:927
+id.prototype.evaluate@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&cx=c&gtm=45He5650v855226469za200&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104653070~104653072~104661466~104661468~104684208~104684211~104698127~104698129~104718208:197:72
+zd@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&cx=c&gtm=45He5650v855226469za200&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104653070~104653072~104661466~104661468~104684208~104684211~104698127~104698129~104718208:208:69
+aa.invoke@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&cx=c&gtm=45He5650v855226469za200&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104653070~104653072~104661466~104661468~104684208~104684211~104698127~104698129~104718208:195:367
+Ma@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&cx=c&gtm=45He5650v855226469za200&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104653070~104653072~104661466~104661468~104684208~104684211~104698127~104698129~104718208:161:927
+La@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&cx=c&gtm=45He5650v855226469za200&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104653070~104653072~104661466~104661468~104684208~104684211~104698127~104698129~104718208:161:683
+Wd/<@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&cx=c&gtm=45He5650v855226469za200&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104653070~104653072~104661466~104661468~104684208~104684211~104698127~104698129~104718208:219:468
+aa.invoke@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&cx=c&gtm=45He5650v855226469za200&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104653070~104653072~104661466~104661468~104684208~104684211~104698127~104698129~104718208:195:367
+KO/<@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&cx=c&gtm=45He5650v855226469za200&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104653070~104653072~104661466~104661468~104684208~104684211~104698127~104698129~104718208:848:1002
+fw@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&cx=c&gtm=45He5650v855226469za200&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104653070~104653072~104661466~104661468~104684208~104684211~104698127~104698129~104718208:559:405
+aa.Up@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&cx=c&gtm=45He5650v855226469za200&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104653070~104653072~104661466~104661468~104684208~104684211~104698127~104698129~104718208:827:240
+aa.Tp/</<@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&cx=c&gtm=45He5650v855226469za200&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104653070~104653072~104661466~104661468~104684208~104684211~104698127~104698129~104718208:824:502
+Sm@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&cx=c&gtm=45He5650v855226469za200&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104653070~104653072~104661466~104661468~104684208~104684211~104698127~104698129~104718208:384:194
+bp@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&cx=c&gtm=45He5650v855226469za200&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104653070~104653072~104661466~104661468~104684208~104684211~104698127~104698129~104718208:406:70
+aa.Tp/<@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&cx=c&gtm=45He5650v855226469za200&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104653070~104653072~104661466~104661468~104684208~104684211~104698127~104698129~104718208:824:488
+c@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&cx=c&gtm=45He5650v855226469za200&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104653070~104653072~104661466~104661468~104684208~104684211~104698127~104698129~104718208:593:9
+sy@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&cx=c&gtm=45He5650v855226469za200&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104653070~104653072~104661466~104661468~104684208~104684211~104698127~104698129~104718208:593:336
+aa.Tp@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&cx=c&gtm=45He5650v855226469za200&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104653070~104653072~104661466~104661468~104684208~104684211~104698127~104698129~104718208:824:474
+c@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&cx=c&gtm=45He5650v855226469za200&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104653070~104653072~104661466~104661468~104684208~104684211~104698127~104698129~104718208:839:964
+w@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&cx=c&gtm=45He5650v855226469za200&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104653070~104653072~104661466~104661468~104684208~104684211~104698127~104698129~104718208:425:370
+an@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&cx=c&gtm=45He5650v855226469za200&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104653070~104653072~104661466~104661468~104684208~104684211~104698127~104698129~104718208:386:513
+Fq@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&cx=c&gtm=45He5650v855226469za200&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104653070~104653072~104661466~104661468~104684208~104684211~104698127~104698129~104718208:425:452
+Eq.prototype.flush@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&cx=c&gtm=45He5650v855226469za200&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104653070~104653072~104661466~104661468~104684208~104684211~104698127~104698129~104718208:429:409
+Eq.prototype.push@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&cx=c&gtm=45He5650v855226469za200&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104653070~104653072~104661466~104661468~104684208~104684211~104698127~104698129~104718208:427:379
+wq@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&cx=c&gtm=45He5650v855226469za200&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104653070~104653072~104661466~104661468~104684208~104684211~104698127~104698129~104718208:422:544
+SN/<@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&cx=c&gtm=45He5650v855226469za200&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104653070~104653072~104661466~104661468~104684208~104684211~104698127~104698129~104718208:840:175
+aa.Yn/<@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&cx=c&gtm=45He5650v855226469za200&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104653070~104653072~104661466~104661468~104684208~104684211~104698127~104698129~104718208:777:126
+aa.Yn/c/<@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&cx=c&gtm=45He5650v855226469za200&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104653070~104653072~104661466~104661468~104684208~104684211~104698127~104698129~104718208:776:420
+
+JavaScript warning: https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js, line 79: Script terminated by timeout at:
+n.remove@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:79:443
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:174
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:709
+jd.prototype.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:90:1369
+Yd/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:96:1524
+jd/this.Ed@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:90:991
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+M/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:91:475
+jd/this.Ed@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:90:991
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+M/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:91:475
+jd/this.Ed@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:90:991
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+Hh/c/</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:142:320
+Xa@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:49:339
+Ua.prototype.flush@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:49:127
+Wa@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:48:483
+Hh/c/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:142:292
+uc.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:218
+n.Ed@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:756
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+tg/</</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:121:515
+Ta.prototype.Sb/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:48:315
+tg/</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:121:524
+uc.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:218
+n.Ed@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:756
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+tg/</</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:121:515
+Ta.prototype.Sb/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:48:315
+tg/</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:121:524
+uc.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:218
+n.Ed@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:756
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+h@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:93:477
+
+1749537025911	Marionette	INFO	Stopped listening on port 55672
+Dynamically enable window occlusion 1
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":27,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":26,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":26,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetchLatestChanges","sourceId":26,"lineNumber":429,"columnNumber":34,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"sync","sourceId":24,"lineNumber":625,"columnNumber":42,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"get/this._importingPromise<","sourceId":24,"lineNumber":477,"columnNumber":28,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}},"formattedStack":"sync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}},"formattedStack":"fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/<@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34|sync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42|get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28|
+  - prototype Object

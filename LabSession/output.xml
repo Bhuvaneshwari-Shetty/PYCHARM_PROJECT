@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3 (Python 3.13.3 on win32)" generated="2025-06-10T09:44:35.365720" rpa="false" schemaversion="5">
+<suite id="s1" name="Task2" source="C:\Users\bhush\PyCharmMiscProject\LabSession\Task2.robot">
+<test id="s1-t1" name="Verify login success with valid credentials" line="9">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-06-10T09:44:35.670004" level="INFO">Opening browser 'Firefox' to base url 'https://www.tutorialspoint.com/selenium/practice/login.php'.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-06-10T09:44:35.669777" elapsed="9.588608"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2025-06-10T09:44:45.258762" elapsed="0.007456"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>xpath://input[@id='email']</arg>
+<arg>timeout=5</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2025-06-10T09:44:45.266493" elapsed="0.083975"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-06-10T09:44:45.350920" level="INFO">Typing text 'Admin@gmail.com' into text field 'xpath://input[@id='email']'.</msg>
+<arg>xpath://input[@id='email']</arg>
+<arg>Admin@gmail.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-06-10T09:44:45.350731" elapsed="0.081674"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-06-10T09:44:45.432887" level="INFO">Typing text 'admin123' into text field 'xpath://input[@id='password']'.</msg>
+<arg>xpath://input[@id='password']</arg>
+<arg>admin123</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-06-10T09:44:45.432695" elapsed="0.020182"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-06-10T09:44:45.453722" level="INFO">Clicking element 'xpath://input[@value='Login']'.</msg>
+<arg>xpath://input[@value='Login']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-06-10T09:44:45.453521" elapsed="0.488027"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-06-10T09:44:45.941804" elapsed="3.497837"/>
+</kw>
+<doc>This test case verifies that user is able to sucessfuly login with valid credentials</doc>
+<status status="PASS" start="2025-06-10T09:44:35.669015" elapsed="13.771252"/>
+</test>
+<status status="PASS" start="2025-06-10T09:44:35.367386" elapsed="14.074372"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Task2" id="s1" pass="1" fail="0" skip="0">Task2</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

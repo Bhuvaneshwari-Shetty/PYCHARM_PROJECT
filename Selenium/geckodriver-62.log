@@ -1,0 +1,20 @@
+1749554595814	geckodriver	INFO	Listening on 127.0.0.1:60808
+1749554598901	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60809" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\bhush\\AppData\\Local\\Temp\\rust_mozprofileNjrkdj"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1749554599715	Marionette	INFO	Marionette enabled
+1749554600439	Marionette	INFO	Listening on port 60818
+WebDriver BiDi listening on ws://127.0.0.1:60809
+Read port: 60818
+1749554600630	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1749554616306	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:205:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:189:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:465:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:218:33
+JavaScript error: https://www.blogger.com/static/v1/widgets/2838643729-widgets.js, line 69: TypeError: a is null
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.

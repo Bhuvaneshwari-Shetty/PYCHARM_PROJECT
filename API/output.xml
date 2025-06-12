@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3 (Python 3.13.3 on win32)" generated="2025-06-12T12:47:33.882979" rpa="false" schemaversion="5">
+<suite id="s1" name="DELETETask1" source="C:\Users\bhush\PyCharmMiscProject\API\DELETETask1.robot">
+<test id="s1-t1" name="DELETE Request Example" line="10">
+<kw name="Create Session" owner="RequestsLibrary">
+<msg time="2025-06-12T12:47:34.470457" level="INFO">Creating Session using : alias=jsonplaceholder, url=https://videogamedb.uk:443/, headers={},                     cookies={}, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
+<arg>jsonplaceholder</arg>
+<arg>${BASE_URL}</arg>
+<arg>verify=False</arg>
+<doc>Create Session: create a HTTP session to a server</doc>
+<status status="PASS" start="2025-06-12T12:47:34.470047" elapsed="0.000782"/>
+</kw>
+<kw name="DELETE On Session" owner="RequestsLibrary">
+<msg time="2025-06-12T12:47:34.887569" level="INFO">DELETE Request : url=https://videogamedb.uk:443/api/v2/videogame/1 
+ path_url=/api/v2/videogame/1 
+ headers={'User-Agent': 'python-requests/2.32.4', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'content-Type': 'application/json', 'Content-Length': '0'} 
+ body=None 
+ </msg>
+<msg time="2025-06-12T12:47:34.888027" level="INFO">DELETE Response : url=https://videogamedb.uk:443/api/v2/videogame/1 
+ status=200, reason= 
+ headers={'vary': 'Origin, Access-Control-Request-Method, Access-Control-Request-Headers', 'x-content-type-options': 'nosniff', 'x-xss-protection': '1; mode=block', 'cache-control': 'no-cache, no-store, max-age=0, must-revalidate', 'pragma': 'no-cache', 'expires': '0', 'x-frame-options': 'DENY', 'content-type': 'text/plain;charset=UTF-8', 'content-encoding': 'gzip', 'date': 'Thu, 12 Jun 2025 07:17:35 GMT', 'transfer-encoding': 'chunked', 'server': 'Fly/3e8bebaf (2025-06-05)', 'via': '1.1 fly.io, 1.1 fly.io', 'fly-request-id': '01JXHG0N50884PD6ZJ3C12YQK0-bom'} 
+ body=Video game deleted 
+ </msg>
+<msg time="2025-06-12T12:47:34.888171" level="INFO">C:\Users\bhush\PyCharmMiscProject\.venv\Lib\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'videogamedb.uk'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(</msg>
+<msg time="2025-06-12T12:47:34.888842" level="INFO">${response} = &lt;Response [200]&gt;</msg>
+<var>${response}</var>
+<arg>jsonplaceholder</arg>
+<arg>${ENDPOINT}</arg>
+<arg>headers=${HEADERS}</arg>
+<doc>Sends a DELETE request on a previously created HTTP Session.</doc>
+<status status="PASS" start="2025-06-12T12:47:34.471283" elapsed="0.417647"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-06-12T12:47:34.892322" level="INFO">200</msg>
+<arg>${response.status_code}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-06-12T12:47:34.890956" elapsed="0.001485"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-06-12T12:47:34.900996" level="INFO">Video game deleted</msg>
+<arg>${response.content}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-06-12T12:47:34.897478" elapsed="0.003625"/>
+</kw>
+<kw name="Should Be Equal As Numbers" owner="BuiltIn">
+<msg time="2025-06-12T12:47:34.902338" level="INFO">Argument types are:
+&lt;class 'int'&gt;
+&lt;class 'str'&gt;</msg>
+<arg>${response.status_code}</arg>
+<arg>200</arg>
+<doc>Fails if objects are unequal after converting them to real numbers.</doc>
+<status status="PASS" start="2025-06-12T12:47:34.901713" elapsed="0.000736"/>
+</kw>
+<status status="PASS" start="2025-06-12T12:47:34.468818" elapsed="0.434545"/>
+</test>
+<status status="PASS" start="2025-06-12T12:47:33.887983" elapsed="1.017676"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="DELETETask1" id="s1" pass="1" fail="0" skip="0">DELETETask1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

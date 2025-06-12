@@ -1,0 +1,25 @@
+1749554820782	geckodriver	INFO	Listening on 127.0.0.1:60999
+1749554823837	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61000" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\bhush\\AppData\\Local\\Temp\\rust_mozprofilerYPSr8"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1749554824668	Marionette	INFO	Marionette enabled
+1749554825463	Marionette	INFO	Listening on port 61007
+WebDriver BiDi listening on ws://127.0.0.1:61000
+Read port: 61007
+1749554825653	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.blogger.com/static/v1/widgets/2838643729-widgets.js, line 69: TypeError: a is null
+1749554841524	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:205:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:189:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:465:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:218:33
+1749554870002	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:205:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:189:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:465:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:218:33
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
