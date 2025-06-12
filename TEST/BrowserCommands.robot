@@ -11,7 +11,6 @@ ${url}      https://rahulshettyacademy.com/AutomationPractice/
 Browser Commands
 
         [Documentation]
-        [Documentation]
         ${chrome options}=    Evaluate    sys.modules['selenium.webdriver'].ChromeOptions()    sys
         Call Method    ${chrome options}    add_argument    --headless
         Call Method    ${chrome options}    add_argument    --no-sandbox
